@@ -97,7 +97,7 @@ To type capital letters, hold down the \f(CWShift\fP key\(emthat might sound lik
 .ITEM
 \f(CWMod+q\fP \(en Close window
 .ITEM
-\f(CWMod+d\fP \(en dmenu (For running commands or programs without shortcuts)
+\f(CWMod+p\fP \(en dmenu (For running commands or programs without shortcuts)
 .ITEM
 \f(CWMod+j/k\fP \(en Cycle thru windows by their stack order
 .ITEM
@@ -217,9 +217,9 @@ I use ncmpcpp as a music player, which is a front end for mpd.
 .ITEM
 \f(CWMod+>\fP \(en Toggle playlist looping
 .ITEM
-\f(CWMod+p\fP \(en Toggle pause
+\f(CWMod+d\fP \(en Toggle pause
 .ITEM
-\f(CWMod+p\fP \(en Force pause music player daemon and all mpv videos
+\f(CWMod+d\fP \(en Force pause music player daemon and all mpv videos
 .ITEM
 \f(CWMod+M\fP \(en Mute all audio
 .ITEM
