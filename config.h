@@ -123,8 +123,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_0,		tag,		{.ui = ~0 } },
 	{ MODKEY,			XK_minus,	spawn,		SHCMD("amixer set 'Master' 5%-; kill -44 $(pidof dwmblocks)") },
 	{ MODKEY|ShiftMask,		XK_minus,	spawn,		SHCMD("amixer set 'Master' 15%-; kill -44 $(pidof dwmblocks)") },
-	{ MODKEY,			XK_equal,	spawn,		SHCMD("amixer set 'Master' 5%+; kill -44 $(pidof dwmblocks)") },
-	{ MODKEY|ShiftMask,		XK_equal,	spawn,		SHCMD("amixer set 'Master' 15%+; kill -44 $(pidof dwmblocks)") },
+	{ MODKEY,			XK_plus,	spawn,		SHCMD("amixer set 'Master' 5%+; kill -44 $(pidof dwmblocks)") },
+	{ MODKEY|ShiftMask,		XK_plus,	spawn,		SHCMD("amixer set 'Master' 15%+; kill -44 $(pidof dwmblocks)") },
 	{ MODKEY,			XK_BackSpace,	spawn,		SHCMD("sysact") },
 	{ MODKEY|ShiftMask,		XK_BackSpace,	spawn,		SHCMD("sysact") },
 
